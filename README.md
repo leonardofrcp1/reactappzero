@@ -104,3 +104,6 @@ badges (build, status, etc.)
 padrão de commits
 👉 ou até um 
 mini “guia de contribuição” nível open source
+
+
+Teste
