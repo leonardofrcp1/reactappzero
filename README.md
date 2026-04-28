@@ -1,109 +1,70 @@
-🚀 ReactAppZero
+# Getting Started with Create React App
 
-Aplicação desenvolvida com foco em arquitetura escalável, boas práticas e padrões modernos utilizando React.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Este projeto faz parte de um estudo aprofundado com abordagem prática, documentando decisões técnicas e explorando cenários reais de desenvolvimento front-end.
+## Available Scripts
 
-📌 Objetivo
+In the project directory, you can run:
 
-Construir uma aplicação moderna em React que sirva como referência para:
+### `npm start`
 
-Estruturação de projetos escaláveis
-Aplicação de boas práticas de engenharia de software
-Uso eficiente de hooks e gerenciamento de estado
-Integração com APIs e tratamento de dados assíncronos
-Escrita de código limpo e manutenível
-🧠 Abordagem
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-O projeto segue uma abordagem prática orientada a problemas reais, priorizando:
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Decisões arquiteturais bem definidas
-Separação de responsabilidades
-Reutilização de componentes
-Evolução incremental por features
-🏗️ Arquitetura
+### `npm test`
 
-Estrutura baseada em organização por feature, visando escalabilidade:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-src/
-  ├── features/
-  ├── components/
-  ├── hooks/
-  ├── services/
-  ├── contexts/
-  ├── utils/
-  └── pages/
-⚙️ Tecnologias
-React
-JavaScript (ES6+)
-Hooks API
-Context API
-Integração com APIs REST
+### `npm run build`
 
-(Bibliotecas adicionais poderão ser incluídas conforme evolução do projeto)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-🔄 Gerenciamento de Estado
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-O projeto utiliza:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Estado local com hooks
-Context API para compartilhamento global
+### `npm run eject`
 
-Possível evolução para ferramentas como:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Redux
-Zustand
-🌐 Integração com API
-Consumo de APIs REST
-Tratamento de erros
-Controle de loading e estados assíncronos
-Abstração via camada de services
-⚡ Performance
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Estratégias adotadas:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Memoização de componentes
-Evitar re-renderizações desnecessárias
-Code splitting (planejado)
-Lazy loading (planejado)
-🧪 Testes
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Planejamento de testes com:
+## Learn More
 
-Jest
-React Testing Library
-📚 Documentação
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Este repositório faz parte de um estudo estruturado que inclui:
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Documentação técnica detalhada
-Explicação de decisões arquiteturais
-Registro de problemas e soluções
-Boas práticas e anti-patterns
-🚀 Como executar
-# Instalar dependências
-npm install
+### Code Splitting
 
-# Rodar projeto
-npm run dev
-📈 Roadmap
- Estrutura inicial do projeto
- Implementação de features base
- Integração com API
- Gerenciamento de estado avançado
- Testes automatizados
- Otimizações de performance
-🧑‍💻 Autor
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-Desenvolvido como parte de um estudo avançado em engenharia front-end com foco em aplicações reais e padrões de mercado.
+### Analyzing the Bundle Size
 
-Se quiser, próximo passo eu deixo isso ainda mais forte com:
-👉 
-badges (build, status, etc.)
-👉 
-padrão de commits
-👉 ou até um 
-mini “guia de contribuição” nível open source
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
+### Making a Progressive Web App
 
-Teste
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
