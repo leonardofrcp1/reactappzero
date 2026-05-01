@@ -1,7 +1,13 @@
 import React from "react";
+import t from 'prop-types';
 
-export default function Form({ date, setDate, daysMonthsYears, setDaysMonthsYears}) {
-    
+export default function Form({ 
+    date, 
+    setDate, 
+    daysMonthsYears, 
+    setDaysMonthsYears
+}) {
+    daysMonthsYears = {days:0,months:0,years:0};
     return (        
         <form className="main-form">
             <label htmlFor="main-date" className="main-date">
@@ -59,4 +65,15 @@ export default function Form({ date, setDate, daysMonthsYears, setDaysMonthsYear
             
         </form>
     );
+}
+
+Form.propTypes = {
+    date: t.string.isRequired,
+    setDate: t.func.isRequired,
+    setDaysMonthsYears: t.func.isRequired,
+    daysMonthsYears: t.shape({
+        days: t.number,
+        months: t.number,
+        years: t.number
+    }).isRequired
 }
